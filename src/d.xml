@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<devices>
+	<device name="printer">
+		<origin>Ukraine</origin>
+		<price>400</price>
+		<characteristics>
+			<peripheral>true</peripheral>
+			<energyUsage>10</energyUsage>
+			<hasCooler>false</hasCooler>
+			<group>multimedia</group>
+			<port>USB</port>
+			<port>COM</port>
+		</characteristics>
+		<critical>true</critical>
+	</device>
+
+	<device name="scaner">
+		<origin>Poland</origin>
+		<price>300</price>
+		<characteristics>
+			<peripheral>true</peripheral>
+			<energyUsage>20</energyUsage>
+			<hasCooler>false</hasCooler>
+			<group>input_output</group>
+			<port>USB</port>
+			<port>LPT</port>
+		</characteristics>
+		<critical>false</critical>
+	</device>
+</devices>

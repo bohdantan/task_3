@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="devices">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="device" type="deviceType" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:complexType name="deviceType">
+		<xsd:sequence>
+			<xsd:element name="origin" type="xsd:string" />
+			<xsd:element name="price" type="xsd:unsignedInt" />
+			<xsd:element name="characteristics" type="characteristicsType" />
+			<xsd:element name="critical" type="xsd:boolean" />
+		</xsd:sequence>
+		<xsd:attribute name="name" type="xsd:ID"/>
+	</xsd:complexType>
+	
+	<xsd:complexType name="characteristicsType">
+		<xsd:sequence>
+			<xsd:element name="peripheral" type="xsd:boolean" />
+			<xsd:element name="energyUsage" type="xsd:unsignedInt" />
+			<xsd:element name="hasCooler" type="xsd:boolean" />
+			
+			<xsd:element name="group">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="input_output"/>
+						<xsd:enumeration value="multimedia"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+			
+			<xsd:element name="port" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

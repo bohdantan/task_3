@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4eaa422-d899-4e41-904b-618b2b1224f2" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Java\epam\tasks\task_3\generated\CharacteristicsType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Java\epam\tasks\task_3\generated\Device.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Java\epam\tasks\task_3\generated\ObjectFactory.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="d4eaa422-d899-4e41-904b-618b2b1224f2" name="Default" comment="Initial commit&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parsers/DOMParser.java" afterPath="$PROJECT_DIR$/src/parsers/DOMParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="task_3.iws" />
@@ -70,10 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="9" selection-start="565" selection-end="565" vertical-scroll-proportion="0.5184591" vertical-offset="0" max-vertical-offset="623">
+            <state line="19" column="9" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,7 +81,7 @@
       <file leaf-file-name="StAXParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parsers/StAXParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="58" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1343">
+            <state line="16" column="58" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -108,11 +105,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DOMParser.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DOMParser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/parsers/DOMParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="53" selection-start="1479" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1751">
-              <folding />
+            <state line="85" column="20" selection-start="3548" selection-end="3548" vertical-scroll-proportion="0.5088282" vertical-offset="1128" max-vertical-offset="1751">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,11 +157,11 @@
         <option value="$PROJECT_DIR$/src/device/CharacteristicsType.java" />
         <option value="$PROJECT_DIR$/src/device/Characteristics.java" />
         <option value="$PROJECT_DIR$/src/device/Device.java" />
-        <option value="$PROJECT_DIR$/src/parsers/DOMParser.java" />
         <option value="$PROJECT_DIR$/src/parsers/SAXParser.java" />
         <option value="$PROJECT_DIR$/src/parsers/MySAXParser.java" />
         <option value="$PROJECT_DIR$/src/parsers/StAXParser.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/parsers/DOMParser.java" />
       </list>
     </option>
   </component>
@@ -198,6 +197,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,10 +205,6 @@
               <option name="myItemId" value="task_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -231,49 +227,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parsers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="device" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,8 +246,9 @@
     <property name="dynamic.classpath" value="false" />
     <property name="SearchEverywhereHistory" value="xml" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../test" />
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main2" />
       <option name="VM_PARAMETERS" />
@@ -487,6 +447,11 @@
       <created>1391766126726</created>
       <updated>1391766126726</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;">
+      <created>1391808955191</created>
+      <updated>1391808955191</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -503,6 +468,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -513,9 +479,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -530,6 +495,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -539,6 +506,116 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="578">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsers/StAXParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="58" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsers/MySAXParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="9" selection-start="1799" selection-end="2776" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsers/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsers/DOMParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="53" selection-start="1479" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1751">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/device/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="19" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1122">
+          <folding>
+            <marker date="1391797829310" expanded="true" signature="941:1221" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/device/Characteristics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="18" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="578">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsers/StAXParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="58" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsers/MySAXParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="9" selection-start="1799" selection-end="2776" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsers/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsers/DOMParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="53" selection-start="1479" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1751">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/device/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="19" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1122">
+          <folding>
+            <marker date="1391797829310" expanded="true" signature="941:1221" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/device/Characteristics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="18" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="9" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="578">
@@ -572,7 +649,9 @@
     <entry file="file://$PROJECT_DIR$/src/parsers/DOMParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="53" selection-start="1479" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1751">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -615,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/DOMParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="53" selection-start="1479" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1751">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/parsers/MySAXParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="9" selection-start="1799" selection-end="2776" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1649">
@@ -639,6 +711,15 @@
         <state line="523" column="0" selection-start="21276" selection-end="21276" vertical-scroll-proportion="0.4651163" vertical-offset="8201" max-vertical-offset="21845" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/parsers/StAXParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="58" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1343">
@@ -646,9 +727,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/parsers/DOMParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="9" selection-start="565" selection-end="565" vertical-scroll-proportion="0.5184591" vertical-offset="0" max-vertical-offset="623">
+        <state line="85" column="20" selection-start="3548" selection-end="3548" vertical-scroll-proportion="0.5088282" vertical-offset="1128" max-vertical-offset="1751">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

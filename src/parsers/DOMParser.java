@@ -81,7 +81,7 @@ public class DOMParser {
                     }
                     continue;
                 }
-                if (node.getNodeName() == "critical") {
+                if (node.getNodeName().equals("critical")) {
                     device.setCritical(Boolean.parseBoolean(node.getTextContent()));
                     continue;
                 }
